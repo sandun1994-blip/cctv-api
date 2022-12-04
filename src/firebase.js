@@ -11,14 +11,6 @@ import { initializeApp } from "firebase/app";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCDDHNuIkiJLSXvx3RdfTCXFMJwHh_iouA",
-  authDomain: "test-cctv-43b1d.firebaseapp.com",
-  projectId: "test-cctv-43b1d",
-  storageBucket: "test-cctv-43b1d.appspot.com",
-  messagingSenderId: "1074903701647",
-  appId: "1:1074903701647:web:e3373305c30b8bec2378fa"
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
